@@ -8,12 +8,12 @@
 ```
 #include <iostream>
 
-int main() 
+int main()
 {
-	int ival = 1;
-	const int &r = ival > 0 ? ival : 1;
-	ival = 5;
-	std::cout << ival << r;
+    int ival = 1;
+    const int &r = ival > 0 ? ival : 1; //ilk değerini ival ile alan geçici nesneye referans
+    ival = 5;
+    std::cout << ival << r; //5 1
 }
 ```
 

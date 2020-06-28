@@ -10,9 +10,9 @@
 
 void func(int& ra, const int& rb) 
 {
-	std::cout << rb;
+	std::cout << rb; //0
 	ra = 1;
-	std::cout << rb;
+	std::cout << rb; //1
 }
 
 int main() 

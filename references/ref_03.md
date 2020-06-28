@@ -19,9 +19,9 @@ int main()
 {
 	int x = 1;
 	int y = 2;
-	int z = foo(x, x);
+	int z = foo(x, x);// 8
 
-	std::cout << x << y << z;
+	std::cout << x << y << z;// 4 2 8
 }
 
 ```
